@@ -1,61 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--jQuery must also be linked for Bootstrap to function-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="Assets/styles.css">
 
-</head>
-<body>
+        <!--jQuery must also be linked for Bootstrap to function-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <!--This is the container for the grid in Bootstrap-->
-  <div class="container-fluid">
-    <h1>Hello World!</h1>
-    <p>Resize the browser window to see the effect.</p>
-    <p>The columns will automatically stack on top of each other when the screen is less than 768px wide.</p>
+    <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!--Here is a single row with a 4/8 column split in Bootstrap-->
-    <div class="row">
-      <div class="col-sm-2" style="background-color:lavender;">.col-sm-2: 2 = 1/4 of 12</div>
-      <div class="col-sm-2" style="background-color:lavenderblush;">.col-sm-2 = 1/4 of 12</div>
-      <div class="col-sm-6" style="background-color: aquamarine;">.col-sm-6 = 1/2 of 12</div>
-    </div>
-  </div>
 
-  <br>
-  <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#myModal">Click Me!</button>
 
-<!--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>-->
+    </head>
+    <body>
 
-  <!-- Modal -->
-  <div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
+        <!--This is the container for the grid in Bootstrap-->
+        <div class="container-fluid">
+            <!-- navigation bar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!-- portfolio logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="Assets/Images/Sidra M..png" width="auto" height="30" alt="Logo of portfolio">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="Assets/Images/linkedin.svg" alt="linkedIn logo"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="Assets/Images/email.svg" alt="email icon"></a>
+                        </li>
+                    </ul>
+                </div>
 
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+            </nav>
+
+
+
+            <div class="justify-content-center">
+                <h5 id="hero-subtext">Hey there! My name is</h5>
+                <h1 id="hero-name">Sidra Manzoor</h1>
+                <h3 id="hero-description">I’m a UX designer who found her passion in life at the intersection of design, people and technology.</h3>
+                <img src="Assets/Images/downarrow.svg">
+            </div>
+
+            <h1>Featured Projects</h1>
+            <!--Project 1-->
+            <div class="row">
+            <div class="col-sm-6">
+                <img class="project-thumbnail" src="Assets/Images/project1thumbnail.png">
+            </div>
+
+            <div class="col-sm-6">
+                    <p class="project-tag">Self-Help App</p>
+                    <h2>Bubbles</h2>
+                    <h4>Do you tend to catastrophize and think of the worst-case scenario? You are not alone. Bubbles is here as a virtual friend to listen, be a part of your struggles and help you see things in perspective.</h4>
+                    <button type="button" class="btn btn-secondary">View Project</button>
+            </div>
+            </div>
+
+            <!--Project 2-->
+            <div class="row">
+                <div class="col-sm-6">
+                        <p class="project-tag">Self-Help App</p>
+                        <h2>Bubbles</h2>
+                        <h4>Do you tend to catastrophize and think of the worst-case scenario? You are not alone. Bubbles is here as a virtual friend to listen, be a part of your struggles and help you see things in perspective.</h4>
+                        <button type="button" class="btn btn-secondary">View Project</button>
+                </div>
+
+                <div class="col-sm-6">
+                    <img class="project-thumbnail" src="Assets/Images/project1thumbnail.png">
+                </div>
+            </div>
+
+            <footer class="page-footer">
+
+                <div class="footer-copyright text-left py-3">Sidra Manzoor © 2021</div>
+                <ul class="footer">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Back to Top</a>
+                        <img src="Assets/Images/arrow.svg">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="Assets/Images/linkedin.svg" alt="linkedIn logo"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="Assets/Images/email.svg" alt="email icon"></a>
+                    </li>
+                </ul>
+              
+              </footer>
         </div>
-        <div class="modal-body">
-          <p>Some text in the modal.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
 
-    </div>
-  </div>
 
-</body>
+
+    </body>
 </html>
