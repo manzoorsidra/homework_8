@@ -6,48 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="Assets/styles.css">
+
 
         <!--jQuery must also be linked for Bootstrap to function-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="Assets/styles.css">
 
     </head>
     <body>
 
         <!--This is the container for the grid in Bootstrap-->
         <div class="container-fluid">
-            <!-- navigation bar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <!-- portfolio logo -->
-                <a class="navbar-brand" href="#">
-                    <img src="Assets/Images/Sidra M..png" width="auto" height="30" alt="Logo of portfolio">
-                </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Work</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="Assets/Images/linkedin.svg" alt="linkedIn logo"></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="Assets/Images/email.svg" alt="email icon"></a>
-                        </li>
-                    </ul>
-                </div>
 
-            </nav>
-
+            <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-dark border-bottom box-shadow">
+                <h5 class="my-0 mr-md-auto font-weight-normal">Sidra M.</h5>
+                <nav class="my-2 my-md-0 mr-md-3">
+                  <a class="p-2 text-light" href="#">Work</a>
+                  <a class="p-2 text-light" href="#">About</a>
+                  <a class="p-2" href="#"><img src="Assets/Images/linkedin.svg" alt="linkedIn logo"></a>
+                  <a class="p-2" href="#"><img src="Assets/Images/email.svg" alt="email icon"></a>
+                </nav>
+              </div>
 
 
             <div class="justify-content-center">
@@ -60,52 +43,47 @@
             <h1>Featured Projects</h1>
             <!--Project 1-->
             <div class="row">
-            <div class="col-sm-6">
-                <img class="project-thumbnail" src="Assets/Images/project1thumbnail.png">
-            </div>
+                <div class="col-md-6">
+                    <img class="project-thumbnail" src="Assets/Images/project1thumbnail.png">
+                </div>
 
-            <div class="col-sm-6">
-                    <p class="project-tag">Self-Help App</p>
-                    <h2>Bubbles</h2>
-                    <h4>Do you tend to catastrophize and think of the worst-case scenario? You are not alone. Bubbles is here as a virtual friend to listen, be a part of your struggles and help you see things in perspective.</h4>
-                    <button type="button" class="btn btn-secondary">View Project</button>
-            </div>
+                <div class="col-md-6">
+                        <p class="project-tag">Self-Help App</p>
+                        <h2>Bubbles</h2>
+                        <h5>Do you tend to catastrophize and think of the worst-case scenario? You are not alone. Bubbles is here as a virtual friend to listen, be a part of your struggles and help you see things in perspective.</h5>
+                        <button type="button" class="btn btn-secondary">View Project</button>
+                </div>
             </div>
 
             <!--Project 2-->
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                         <p class="project-tag">Self-Help App</p>
                         <h2>Bubbles</h2>
-                        <h4>Do you tend to catastrophize and think of the worst-case scenario? You are not alone. Bubbles is here as a virtual friend to listen, be a part of your struggles and help you see things in perspective.</h4>
+                        <h5>Do you tend to catastrophize and think of the worst-case scenario? You are not alone. Bubbles is here as a virtual friend to listen, be a part of your struggles and help you see things in perspective.</h5>
                         <button type="button" class="btn btn-secondary">View Project</button>
                 </div>
 
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <img class="project-thumbnail" src="Assets/Images/project1thumbnail.png">
                 </div>
             </div>
 
-            <footer class="page-footer">
 
-                <div class="footer-copyright text-left py-3">Sidra Manzoor © 2021</div>
-                <ul class="footer">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Back to Top</a>
-                        <img src="Assets/Images/arrow.svg">
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="Assets/Images/linkedin.svg" alt="linkedIn logo"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="Assets/Images/email.svg" alt="email icon"></a>
-                    </li>
-                </ul>
-              
-              </footer>
         </div>
-
-
+        <nav class="container-fluid navbar fixed-bottom navbar-dark bg-dark">
+            <!-- <a class="navbar-brand" href="#">Sticky top</a> -->
+            <div class="footer-copyright text-left py-3">Sidra Manzoor © 2021</div>
+            <div class="my-2 my-md-0 mr-md-3">
+                <a class="p-2" href="#"><img src="Assets/Images/linkedin.svg" alt="linkedIn logo"></a>
+                <a class="p-2" href="#"><img src="Assets/Images/email.svg" alt="email icon"></a>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh5U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
 
     </body>
 </html>

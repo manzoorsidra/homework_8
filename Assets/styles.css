@@ -4,7 +4,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* h1{
+h1{
     font-size: 40px;
     line-height:60px;
 }
@@ -32,7 +32,7 @@ h5{
 h6{
     font-size: 16px;
     line-height: 24px;
-} */
+}
 
 
 /* body{
@@ -145,4 +145,13 @@ li{
 .greyBox{
     background-color: #2c2c2c;
     border-radius: 10px;
+}
+
+.container-fluid{
+    width: 80%;
+    /* margin: 0px 165px; */
+}
+
+.project-thumbnail {
+    width: 100%;
 }
