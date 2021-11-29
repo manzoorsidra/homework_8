@@ -359,6 +359,19 @@ mark:hover {
 
 .projectDetail{
     font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    margin-bottom: 0rem!important;
+}
+
+.projectFullImg{
+    width: 100%;
+}
+
+.projectSectionTitle{
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #E47839;
+    display: inline-block;
 }
 
 
