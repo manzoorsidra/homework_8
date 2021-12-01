@@ -190,11 +190,13 @@ body{
 
 .boldText{
     font-weight: bold;
-    color: #896A4B;
+    /* color: #896A4B; */
+    color: #E58751;
 }
 
 .coloredTitle{
-    color: #896A4B;
+    /* color: #896A4B; */
+    color: #E58751;
 }
 
 .coloredSubtext{
