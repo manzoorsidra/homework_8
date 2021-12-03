@@ -5,16 +5,18 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!--jQuery must also be linked for Bootstrap to function-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
       <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
-      <!-- CSS stylesheet -->
+      <!-- My own CSS stylesheet -->
       <link rel="stylesheet" href="Assets/styles.css">
    </head>
    <body>
+       <!--Placeholder link that the page scrolls up to when "back to top" button is clicked-->
       <a href="#linktotop" class="toplink">This link brings the viewer back to the top of the page</a>
-      <!--This is the container for the grid in Bootstrap-->
+      <!--This is the main container for the grid in Bootstrap-->
       <div class="container-fluid">
+          <!-- Navigation bar -->
          <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-6 bg-dark">
             <h5 class="my-0 mr-md-auto font-weight-normal">Sidra M.</h5>
             <nav class="my-2 my-md-0 mr-md-3">
@@ -24,13 +26,15 @@
                <a class="p-2" href="mailto: smanzoor@andrew.cmu.edu" target="_blank"><img src="Assets/Images/email.svg" alt="email icon" onmouseover='this.src="Assets/Images/emailhover.svg"' onmouseout='this.src="Assets/Images/email.svg"'></a>      
             </nav>
          </div>
-         <!-- Main Introduction -->
+         <!-- Overview of Project -->
          <div class="row d-flex justify-content-center align-items-center mb-7">
+             <!-- Elevator Pitch Summary -->
             <div class="col-md-8 col-lg-8 col-sm-12 mb-5" data-aos="fade-up">
                <h6 class="coloredSubtext">Immersive AR Experience</h6>
                <p class="projectTitle orangeColoredTitle">CalmZone</p>
                <p class="projectDetail">CalmZone is an augmented reality application that simulates a virtual natural space around users that have limited access to real nature. This is an immersive augmented reality experience that helps people relax and meditate in an urban environment.</p>
             </div>
+            <!-- Timeline, Role and Toolkit -->
             <div class="col-md-4 col-lg-4 col-sm-12 greyBox p-4">
                <div class="mb-4">
                   <h4 class="projectSubtext">Role</h4>
@@ -49,10 +53,9 @@
                </div>
             </div>
          </div>
-         <!-- Project Video -->
+         <!-- Project Demo Video -->
          <div class="row d-flex align-items-center mb-7 text-center justify-content-center">
             <div class="embed-responsive embed-responsive-16by9">
-               <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BWb70GgVXHE"></iframe> -->
                <iframe width="560" height="315" src="https://www.youtube.com/embed/BWb70GgVXHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
          </div>
@@ -105,6 +108,7 @@
             </div>
          </div>
       </div>
+      <!-- Page Footer -->
       <nav class="container-fluid navbar navbar-dark bg-dark">
          <div class="footer-copyright text-left py-3">Sidra Manzoor © 2021</div>
          <div class="my-2 my-md-0 mr-md-3">
@@ -114,6 +118,7 @@
             </a>
          </div>
       </nav>
+      <!-- Links to jquery and javascript files -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

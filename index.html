@@ -4,21 +4,23 @@
       <title>Sidra Manzoor Portfolio</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!--jQuery must also be linked for Bootstrap to function-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!--jQuery for Bootstrap-->
+      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
       <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
       <!-- CDN for animate.css stylesheet -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-      <!-- CDN for animate.css stylesheet -->
+      <!-- CDN for animate on scroll library -->
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-      <!-- CSS stylesheet -->
+      <!-- My own CSS stylesheet -->
       <link rel="stylesheet" href="Assets/styles.css">
    </head>
    <body>
+    <!--Placeholder link that the page scrolls up to when "back to top" button is clicked-->
       <a href="#linktotop" class="toplink">This link brings the viewer back to the top of the page</a>
-      <!--This is the container for the grid in Bootstrap-->
+      <!--This is the main container for the grid in Bootstrap-->
       <div class="container-fluid">
+          <!-- Navigation bar -->
          <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-6 bg-dark ">
             <h5 class="my-0 mr-md-auto font-weight-normal">Sidra M.</h5>
             <nav class="my-2 my-md-0 mr-md-3">
@@ -28,6 +30,7 @@
                <a class="p-2" href="mailto: smanzoor@andrew.cmu.edu" target="_blank"><img src="Assets/Images/email.svg" alt="email icon" onmouseover='this.src="Assets/Images/emailhover.svg"' onmouseout='this.src="Assets/Images/email.svg"'></a>      
             </nav>
          </div>
+         <!-- Hero banner section-->
          <div class="d-flex justify-content-center text-center">
             <div class="col-lg-6 col-md-7">
                <h5 id="hero-subtext">Hey there! My name is</h5>
@@ -36,7 +39,9 @@
                <a href="#featuredProjects"><img id="down-arrow"  class="animate__animated animate__fadeInDown animate__infinite infinite animate__slower" src="Assets/Images/downarrow.svg" alt="Down arrow that indicates the user should go down to view more content"></a>
             </div>
          </div>
-         <a name="featuredProjects" href="#" class="mb-4 title-links">1234567890</a>
+         <!-- pageholder link that the page scrolls down to when the down arrow is clicked in the hero banner-->
+         <a name="featuredProjects" href="#" class="mb-4 title-links">placeholder text</a>
+         <!-- Featured projects section -->
          <h1 class="mb-6" data-aos="zoom-in">Featured Projects</h1>
          <!--Project 1-->
          <div class="row align-items-center mb-7">
@@ -75,6 +80,7 @@
             </div>
          </div>
       </div>
+      <!-- Page Footer -->
       <nav class="container-fluid navbar navbar-dark bg-dark">
          <div class="footer-copyright text-left py-3">Sidra Manzoor © 2021</div>
          <div class="my-2 my-md-0 mr-md-3">
@@ -84,6 +90,7 @@
             </a>
          </div>
       </nav>
+      <!-- Links to jquery and javascript files -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
