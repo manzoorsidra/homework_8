@@ -4,8 +4,6 @@
       <title>Sidra Manzoor Portfolio</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!--jQuery must also be linked for Bootstrap to function-->
-      <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
       <!-- This website uses Bootstrap JS and CSS through links to MaxCDN's CDN supported version-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
       <!-- My own CSS stylesheet -->
@@ -17,7 +15,7 @@
       <!--This is the main container for the grid in Bootstrap-->
       <div class="container-fluid">
           <!-- Navigation bar -->
-         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-6 bg-dark">
+         <div class="d-flex flex-column flex-md-row align-items-center p-3 mb-6 bg-dark">
             <h5 class="my-0 mr-md-auto font-weight-normal">Sidra M.</h5>
             <nav class="my-2 my-md-0 mr-md-3">
                <a class="p-2 top-nav-links" href="index.html">Work</a> 
@@ -27,9 +25,9 @@
             </nav>
          </div>
          <!-- Overview of Project -->
-         <div class="row d-flex justify-content-center align-items-center mb-7">
+         <div class="row d-flex align-items-center mb-7">
              <!-- Elevator Pitch Summary -->
-            <div class="col-md-8 col-lg-8 col-sm-12 mb-5" data-aos="fade-up">
+            <div class="col-md-8 col-lg-8 col-sm-12 mb-5 pl-0" data-aos="fade-up">
                <h6 class="coloredSubtext">Immersive AR Experience</h6>
                <p class="projectTitle orangeColoredTitle">CalmZone</p>
                <p class="projectDetail">CalmZone is an augmented reality application that simulates a virtual natural space around users that have limited access to real nature. This is an immersive augmented reality experience that helps people relax and meditate in an urban environment.</p>
@@ -54,53 +52,51 @@
             </div>
          </div>
          <!-- Project Demo Video -->
-         <div class="row d-flex align-items-center mb-7 text-center justify-content-center">
+         <div class="row d-flex mb-7 text-center">
             <div class="embed-responsive embed-responsive-16by9">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/BWb70GgVXHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               <iframe width="100%" height="auto" src="https://www.youtube.com/embed/BWb70GgVXHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
          </div>
          <!-- Background -->
-         <div class="row col-md-8 col-lg-8 col-sm-12 mb-7">
-            <h2 class="projectSectionTitle">Background</h2>
-            <h4 class="mb-4">With the rapid development of infrastructure in urban communities, natural spaces have become increasingly scarce. According to research, people who live in such urban communities can experience increased stress in their lives due to a lack of exposure to nature. Moreover if these urban residents wish to increase their exposure to nature, they have no choice but to travel long distances away from the city to reach a natural space. CalmZone aims to target this issue of reduced natural spaces in urban communities by providing an accessible way for urban residents to experience nature i.e. in a virtual form.</h4>
-            <img class= "projectFullImg" src="Assets/Images/background.png" alt="image of a virtual bird inside a forest in a real room">
-         </div>
+        <h2 class="projectSectionTitle">Background</h2>  
+        <h4 class="mb-4 col-lg-8 col-md-12 projectBody">With the rapid development of infrastructure in urban communities, natural spaces have become increasingly scarce. According to research, people who live in such urban communities can experience increased stress in their lives due to a lack of exposure to nature. Moreover if these urban residents wish to increase their exposure to nature, they have no choice but to travel long distances away from the city to reach a natural space. CalmZone aims to target this issue of reduced natural spaces in urban communities by providing an accessible way for urban residents to experience nature i.e. in a virtual form.</h4>
+        <img class= "projectFullImg mb-7 col-lg-10 col-md-12 pl-0" src="Assets/Images/background.png" alt="image of a virtual bird inside a forest in a real room">
          <!-- Design Question -->
-         <div class="row mb-7">
+         <div class="row d-flex mb-7">
             <h2 class="projectSectionTitle">Design Question</h2>
             <div class="col-sm-12 col-md-12 col-lg-12 greyBox d-flex justify-content-center align-items-center text-center py-5">
                <p class="projectDetail">How might we make natural spaces more accessible to urban residents?</p>
             </div>
          </div>
          <!--Solution-->
-         <div class="row d-flex">
-            <div class="col-md-8 col-lg-8 col-sm-12 mb-4">
-               <h2 class="projectSectionTitle">Solution</h2>
-               <h4 class="mb-4">Created as a mobile AR application, CalmZone allows users to create a virtual natural space around themselves directly through their smartphone.</h4>
-               <ul class="pl-4">
-                  <li class="mb-3 coloredSubtext">Smartphones are more readily available to users compared to specialized equipment like VR headsets.</li>
-                  <li class="mb-3 coloredSubtext">An AR application prevents cybersickness which can take away from the relaxation experience.</li>
-                  <li class="mb-3 coloredSubtext">AR enables the user to transform their environment instead of completely blocking it out. This allows the user to feel at ease in their real environment instead of entering a new space.</li>
-               </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-5">
-               <img class="solutionImg" src="Assets/Images/solution.png" alt="App interface showing a virtual natural space with a red bird and trees">
-            </div>
-         </div>
+         <div class="row d-flex align-items-center mb-7">
+             <div class="pl-0 col-md-8 col-sm-12">
+                <h2 class="projectSectionTitle">Solution</h2>  
+                <h4 class="mb-4 col-lg-8 col-md-12 projectBody">Created as a mobile AR application, CalmZone allows users to create a virtual natural space around themselves directly through their smartphone.</h4>
+                <ul class="pl-4 mb-5">
+                    <li class="mb-3 coloredSubtext">Smartphones are more readily available to users compared to specialized equipment like VR headsets.</li>
+                    <li class="mb-3 coloredSubtext">An AR application prevents cybersickness which can take away from the relaxation experience.</li>
+                    <li class="mb-3 coloredSubtext">AR enables the user to transform their environment instead of completely blocking it out. This allows the user to feel at ease in their real environment instead of entering a new space.</li>
+                </ul>
+             </div>
+             <div class="col-lg-3 col-md-4 col-sm-6 pl-sm-0 pl-md-2">
+                <img class="solutionImg" src="Assets/Images/solution.png" alt="App interface showing a virtual natural space with a red bird and trees">
+             </div>
+        </div> 
          <!-- Significance -->
-         <div class="row d-flex justify-content-center align-items-center mb-7">
-            <div class="col-md-6 col-lg-4 col-sm-8 mb-4 justify-content-center d-flex align-items-center">
+         <div class="row d-flex align-items-center mb-7">
+            <div class="pl-0 col-md-6 col-lg-6 col-sm-8 mb-4 justify-content-center d-flex align-items-center order-2 order-md-1">
                <img class="about-image" src="Assets/Images/significance.png" alt="A person using the CalmZone app on their phone">
             </div>
-            <div class="col-md-6 col-lg-6 col-sm-12" data-aos="fade-up">
-               <h2 class="projectSectionTitle">Significance</h2>
-               <h4 class="mb-4">Over time as urbanization has rapidly increased, the negative impact on people’s well-being has also risen. Due to this, there is an increasing need for more exposure to nature. People want to experience environments that are becoming scarce. CalmZone aims to be such a way to help individuals cope with these fast changes in their immediate surroundings and experience the nature that rapidly ceases to exist.</h4>
+            <div class="pl-sm-0 pl-md-3 col-md-6 col-lg-6 col-sm-12 order-1 order-md-2" data-aos="fade-up">
+               <h2 class="pl-sm-0 projectSectionTitle">Significance</h2>
+               <h4 class="mb-4 projectBody">Over time as urbanization has rapidly increased, the negative impact on people’s well-being has also risen. Due to this, there is an increasing need for more exposure to nature. People want to experience environments that are becoming scarce. CalmZone aims to be such a way to help individuals cope with these fast changes in their immediate surroundings and experience the nature that rapidly ceases to exist.</h4>
             </div>
          </div>
-         <!-- Let's Keep in Touch -->
+         <!-- Reach Out Here -->
          <div class="bottomblurb row d-flex align-items-center text-center justify-content-center greyBox py-3 mb-7">
             <div class="align-items-center justify-content-center">
-               <h2 class="orangeColoredTitle">Want to Learn More? Let’s Chat!</h2>
+               <h2 class="orangeColoredTitle">Reach Out Here</h2>
                <div class="d-flex flex-row justify-content-center align-items-center">
                   <a class="p-2" href="https://www.linkedin.com/in/sidramanzoor/" target="_blank"><img src="Assets/Images/linkedin.svg" alt="linkedIn icon" onmouseover='this.src="Assets/Images/linkedinhover.svg"' onmouseout='this.src="Assets/Images/linkedin.svg"'></a>
                   <a class="p-2" href="mailto: smanzoor@andrew.cmu.edu" target="_blank"><img src="Assets/Images/email.svg" alt="email icon" onmouseover='this.src="Assets/Images/emailhover.svg"' onmouseout='this.src="Assets/Images/email.svg"'></a>
@@ -114,7 +110,7 @@
          <div class="my-2 my-md-0 mr-md-3">
             <a name="linktotop" class="p-2 pl-4 align-items-center back-to-top-link" href="#">
                <p class="pr-2 back-to-top text-light">Back to Top</p>
-               <img src="Assets/Images/arrow.svg" alt="arrow icon">
+               <img class= "pb-2" src="Assets/Images/arrow.svg" alt="arrow icon">
             </a>
          </div>
       </nav>

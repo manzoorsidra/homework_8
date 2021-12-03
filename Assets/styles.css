@@ -51,6 +51,11 @@ h6 {
 	text-decoration: none!important;
 }
 
+.row{
+    margin-left: 0%!important;
+    margin-right: 0%!important;
+}
+
 
 /* Small devices (landscape phones, 544px and up) */
 
@@ -85,6 +90,12 @@ h6 {
 	}
 }
 
+@media (max-width: 450px) {
+	.back-to-top-link {
+        display: none;
+	}
+}
+
 
 /* Medium devices (tablets, 768px and up)*/
 
@@ -113,8 +124,8 @@ h6 {
 		line-height: 100px;
 	}
 	.bottomblurb {
-		margin-left: 8rem;
-		margin-right: 8rem;
+		margin-left: 4rem;
+		margin-right: 4rem;
 	}
 }
 
@@ -235,6 +246,13 @@ body {
 	width: 100%;
 }
 
+.mobileP2{
+    display: flex;
+}
+.desktopP2{
+    display: none;
+}
+
 .bg-dark {
 	background-color: black!important;
 }
@@ -297,7 +315,8 @@ body {
 }
 
 
-/* gradient style of active nav link */
+
+/* Gradient style of active nav link */
 
 mark {
 	color: white;
@@ -382,4 +401,12 @@ mark:hover {
 
 .solutionImg {
 	width: 100%;
+}
+
+.projectBody{
+    font-weight: 500;
+    color: #939393;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    padding-left: 0%!important;
 }
